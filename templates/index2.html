@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template for textUtility</title>
+</head>
+<body>
+   <h1> Welcome to text Analyzer .Enter your text below</h1>
+
+<form action='/analyze' method='get'>
+
+     <textarea name='text' spellcheck="false" style='margin: 0px; width: 1493px; height: 177px;'>   </textarea>
+     <br>
+     <input type="checkbox" name='removepunc'>Remove Punctuations <br>
+     <input type="checkbox" name='fullcapital'>Upper case <br>
+     <input type="checkbox" name='newlineremove'>New Line Remover <br>
+     <input type="checkbox" name='extraspaceremove'>Extra Space Remover <br>
+ 
+
+
+    <button type='submit'>Analyze Text</button>
+
+</form>
+
+</body>
+</html>
